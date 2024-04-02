@@ -24,7 +24,6 @@ const SOCIAL_ICONS: Record<string, any> = {
       <h1>{name}</h1>
       <h2>{label}</h2>
       <span>
-        <!-- icono -->
         <WorldMap />
         {city}, {region}
       </span>
@@ -81,6 +80,8 @@ const SOCIAL_ICONS: Record<string, any> = {
 </Section>
 
 <style>
+  @import "@/variables.css";
+  
   .container {
     display: flex;
     flex-direction: row;
@@ -97,7 +98,7 @@ const SOCIAL_ICONS: Record<string, any> = {
   }
 
   span {
-    color: #888;
+    color: var(--color-terciario);
   }
 
   h1 {
@@ -106,7 +107,7 @@ const SOCIAL_ICONS: Record<string, any> = {
   h2 {
     font-size: 1.2rem;
     font-weight: 400;
-    color: #444;
+    color: var(--color-primario);
     text-wrap: balance;
   }
 
@@ -125,7 +126,7 @@ const SOCIAL_ICONS: Record<string, any> = {
     margin: 8px 0;
   }
   footer a {
-    color: #777;
+    color: var(--color-terciario);
     display: inline-flex;
     align-items: center;
     justify-content: center;
@@ -137,7 +138,8 @@ const SOCIAL_ICONS: Record<string, any> = {
     transition: all 0.3s ease;
   }
   footer a:hover {
+    color: var(--color-primario);
     background: #eee;
-    border: 1px solid #ccc;
+    border: 1px solid var(--color-primario);
   }
 </style>

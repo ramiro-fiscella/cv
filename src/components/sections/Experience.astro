@@ -15,12 +15,12 @@ import { work } from "@cv";
                 <header>
                   <div>
                     <h3>{name}</h3>
-                    <h4>{position}</h4>
                   </div>
                   <p class="date">
                     {startDate} - {endDate ? endDate : "Presente"}
                   </p>
                 </header>
+                <h4>{position}</h4>
                 <footer>
                   <p>{summary}</p>
                 </footer>
@@ -40,17 +40,17 @@ import { work } from "@cv";
     gap: 32px;
   }
 
-  article h4 {
+  h4 {
     text-transform: uppercase;
     font-weight: 500;
     font-size: 0.8rem;
     margin: 4px 0;
     letter-spacing: 0.01rem;
-    color: var(--color-primario)
+    color: var(--color-primario);
   }
   .date {
     text-transform: uppercase;
-    font-size: 0.8rem;
+    font-size: 0.7rem;
     margin: 8px 0;
   }
   header {
@@ -58,5 +58,11 @@ import { work } from "@cv";
     justify-content: space-between;
     align-items: flex-start;
     margin-bottom: 4px;
+  }
+  @media print {
+    h4 {
+      color: black;
+      background: white;
+    }
   }
 </style>

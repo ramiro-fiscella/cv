@@ -4,23 +4,33 @@ import Section from "../Section.astro";
 import { projects } from "@cv";
 ---
 
-<Section title="Proyectos"> 
-  <ul>
+<Section title="Proyectos">
+  <ul class="projects">
     {
-      projects.map(({ name , description, tech, url}) => {
+      projects.map(({ name, description, tech, url }) => {
         return (
           <>
             <li>
-              <h4>{name}</h4>
-              <span>{description}</span>
-              {tech.map((tech) => {
-                return (
-                  <>
-                    <p>{tech}</p>
-                  </>
-                )
-              })}
-              <a>{url}</a>
+              <article>
+                <header>
+                  <h4>{name}</h4>
+                  <p>{description}</p>
+                </header>
+                <footer>
+                  <ul class="tech">
+                    {tech.map((tech) => {
+                      return (
+                        <li>
+                          <span>{tech}</span>
+                        </li>
+                      );
+                    })}
+                  </ul>
+                </footer>
+                <a href={url} target="_blank" rel="noopener noreferer">
+                  Demo
+                </a>
+              </article>
             </li>
           </>
         );
@@ -30,24 +40,66 @@ import { projects } from "@cv";
 </Section>
 
 <style>
-ul {
-  display: flex;
-  justify-content: center;
-  flex-wrap: wrap;
-  color: #666;
-  padding: 0;
-  gap: 1rem;
-}
+  /* ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1rem;
+  } */
+  ul {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+    gap: 1rem;
+  }
+  article {
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 1.2rem;
+    width: 100%;
 
-li {
-  border: 1px solid #ddd;
-  border-radius: 0.25rem;
-  padding: 1rem;
-  width: 100%;
-  max-width: 280px;
-}
-  display: flex;
-  flex-direction: column;
-  gap: 0.5rem;
-}
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    align-items: flex-start;
+  }
+
+  .tech {
+    display: inline-flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+  }
+  span {
+    user-select: none;
+    font-size: 0.8rem;
+    color: var(--color-terciario);
+    border: 1px solid #ddd;
+    padding: 3px 8px;
+    border-radius: 4px;
+  }
+  span:hover {
+    border: 1px solid #bbb;
+  }
+  a {
+    font-size: 0.8rem;
+    color: var(--color-primario);
+    border: 1px solid var(--color-primario);
+    padding: 3px 8px;
+    border-radius: 4px;
+    transition: all 0.3s ease;
+  }
+  a:hover {
+    background: var(--color-primario);
+    color: var(--color-fondo);
+  }
+
+  @media print {
+    * {
+      color: black;
+      background: white;
+    }
+
+    a {
+      display: none;
+    }
+  }
 </style>

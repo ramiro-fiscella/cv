@@ -39,7 +39,7 @@ import { education } from "@cv";
   }
   .date {
     text-transform: uppercase;
-    font-size: 0.8rem;
+    font-size: 0.7rem;
     margin: 8px 0;
   }
   header {
@@ -47,5 +47,11 @@ import { education } from "@cv";
     justify-content: space-between;
     align-items: flex-start;
     margin-bottom: 4px;
+  }
+  @media print {
+    * {
+      color: black;
+      background: white;
+    }
   }
 </style>

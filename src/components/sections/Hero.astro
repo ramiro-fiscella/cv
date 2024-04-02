@@ -16,6 +16,18 @@ const SOCIAL_ICONS: Record<string, any> = {
   LinkedIn,
   X,
 };
+
+const linkedInfo = profiles.find((p) => p.network === "LinkedIn");
+const LinkedUrl = linkedInfo?.url;
+
+const githubInfo = profiles.find((p) => p.network === "GitHub");
+const gitHubUrl = githubInfo?.url;
+
+const xInfo = profiles.find((p) => p.network === "X");
+const xUrl = xInfo?.url;
+
+const printInfo = [phone, email, LinkedUrl, gitHubUrl, xUrl];
+// const printInfo = [phone, email, LinkedUrl, gitHubUrl, xUrl];
 ---
 
 <Section>
@@ -28,6 +40,9 @@ const SOCIAL_ICONS: Record<string, any> = {
         {city}, {region}
       </span>
 
+      <div class="print">
+        {printInfo.map((i) => i && <p>{i}</p>)}
+      </div>
       <footer>
         {
           email && (
@@ -80,8 +95,6 @@ const SOCIAL_ICONS: Record<string, any> = {
 </Section>
 
 <style>
-  @import "@/variables.css";
-  
   .container {
     display: flex;
     flex-direction: row;
@@ -113,11 +126,10 @@ const SOCIAL_ICONS: Record<string, any> = {
 
   figure img {
     border-radius: 4%;
-    width: 110px;
-    height: 144px;
+    width: 100px;
+    height: 140px;
     object-fit: cover;
     transform: rotate(4deg);
-    margin-right: 20px;
   }
 
   footer {
@@ -130,7 +142,7 @@ const SOCIAL_ICONS: Record<string, any> = {
     display: inline-flex;
     align-items: center;
     justify-content: center;
-    border: 1px solid #eee;
+    border: 1px solid #ddd;
     padding: 4px;
     height: 32px;
     width: 32px;
@@ -139,7 +151,28 @@ const SOCIAL_ICONS: Record<string, any> = {
   }
   footer a:hover {
     color: var(--color-primario);
-    background: #eee;
     border: 1px solid var(--color-primario);
+  }
+
+  @media (max-width: 400px) {
+    .info {
+      padding: 0;
+    }
+  }
+
+  @media print {
+    *,
+    h1,
+    h2,
+    h3,
+    h4,
+    p,
+    span {
+      color: black;
+      background: white;
+    }
+    footer {
+      display: none;
+    }
   }
 </style>

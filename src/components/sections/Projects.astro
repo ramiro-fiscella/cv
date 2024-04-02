@@ -1,5 +1,53 @@
 ---
 import Section from "../Section.astro";
+
+import { projects } from "@cv";
 ---
 
-<Section title="Proyectos" />
+<Section title="Proyectos"> 
+  <ul>
+    {
+      projects.map(({ name , description, tech, url}) => {
+        return (
+          <>
+            <li>
+              <h4>{name}</h4>
+              <span>{description}</span>
+              {tech.map((tech) => {
+                return (
+                  <>
+                    <p>{tech}</p>
+                  </>
+                )
+              })}
+              <p>{url}</p>
+            </li>
+          </>
+        );
+      })
+    }
+  </ul>
+</Section>
+
+<style>
+ul {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  color: #666;
+  padding: 0;
+  gap: 1rem;
+}
+
+li {
+  border: 1px solid #ddd;
+  border-radius: 0.25rem;
+  padding: 1rem;
+  width: 100%;
+  max-width: 300px;
+}
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+</style>

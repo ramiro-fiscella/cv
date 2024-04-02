@@ -1,0 +1,173 @@
+{
+  "basics": {
+    "name": "Ramiro Fiscella",
+    "label": "Front-End Web Developer &  UX/UI Designer.",
+    "image": "/me.webp",
+    "email": "ramirofiscella@gmail.com",
+    "phone": "+54 2281249246",
+    "url": "https://ramirof.vercel.app",
+    "summary": "Soy Desarrollador Web Frontend con especial aprecio por el diseño de interfaces y la experiencia de usuario. Busco simpleza a través de mi trabajo creando soluciones tecnológicas que no solo sean funcionales, sino también atractivas y fáciles de usar.",
+    "location": {
+      "address": "",
+      "postalCode": "28079 ",
+      "city": "Madrid",
+      "countryCode": "ES",
+      "region": "España"
+    },
+    "profiles": [
+      {
+        "network": "GitHub",
+        "username": "ramiro-fiscella",
+        "url": "https://github.com/ramiro-fiscella"
+      },
+      {
+        "network": "LinkedIn",
+        "username": "ramiro-fiscella",
+        "url": "https://linkedin.com/in/ramiro-fiscella"
+      },
+      {
+        "network": "X",
+        "username": "ramiro-fiscella",
+        "url": "https://behance.com/ramiro-fiscella"
+      }
+    ]
+  },
+  "work": [
+    {
+      "name": "CoopArSi",
+      "position": "Desarrollador WordPress.",
+      "url": "-",
+      "startDate": "12/2023",
+      "endDate": null,
+      "summary": "Desarrollador de sitios WordPress para una cooperativa de servicios técnicos.",
+      "highlights": ["-"]
+    },
+    {
+      "name": "Soy Henry",
+      "position": "Frontend Developer & UX/UI Designer",
+      "url": "hhttps://espacio-flipante-pf.vercel.app/",
+      "startDate": "06/2023",
+      "endDate": "10/2023",
+      "summary": "Lideré el equipo de diseño UX/UI, creando la interface y el prototipado en Figma. Desarrollé e implementé funcionalidades y componentes en React.",
+      "highlights": ["Encargado de todo el CSS"]
+    },
+    {
+      "name": "Freelance",
+      "position": "desarrollador WordPress",
+      "startDate": "02/2024",
+      "endDate": "03/2024",
+      "summary": "Desarrollé un portfolio web para un fotógrafo.",
+      "highlights": ["-"]
+    }
+  ],
+  "education": [
+    {
+      "institution": "UES21",
+      "area": "Ingeniería y Sistemas",
+      "studyType": "Licenciatura en Informática. Cursado hasta tercer año de la carrera.",
+      "startDate": "03/2014",
+      "endDate": "11/2017"
+    }
+  ],
+  "certificates": [
+    {
+      "name": "Certificate",
+      "date": "30/09/2023",
+      "issuer": "Soy Henry",
+      "url": "https://drive.google.com/file/d/140KqMxEGXF07deEG_poyZEUyu5HXYcto/view?usp=sharing"
+    },
+    {
+      "name": "Certificate",
+      "date": "12/09/2022",
+      "issuer": "INTI",
+      "url": "https://drive.google.com/file/d/14-AnVtU5IymXD4MPjm4XY5UyKyTcQNL9/view?usp=sharing"
+    },
+    {
+      "name": "Certificate",
+      "date": "26/01/2022",
+      "issuer": "FreeCodeCamp",
+      "url": "https://www.freecodecamp.org/certification/kaliv/responsive-web-design"
+    },
+    {
+      "name": "Certificate",
+      "date": "02/08/2023",
+      "issuer": "EFSET",
+      "url": "https://cert.efset.org/9RQxJJ"
+    }
+  ],
+  "skills": [
+    {
+      "name": "HTML"
+    },
+    {
+      "name": "CSS"
+    },
+    {
+      "name": "JavaScript"
+    },
+    {
+      "name": "React"
+    },
+    {
+      "name": "TypeScript"
+    },
+    {
+      "name": "TailwindCSS"
+    },
+    {
+      "name": "Figma"
+    },
+    {
+      "name": "Mobile-first"
+    },
+    {
+      "name": "Responsive Design"
+    },
+    {
+      "name": "Git"
+    },
+    {
+      "name": "SEO"
+    },
+    {
+      "name": "Node"
+    },
+    {
+      "name": "PostgreSQL"
+    },
+    {
+      "name": "WordPress"
+    }
+  ],
+  "languages": [
+    {
+      "language": "Spanish",
+      "fluency": "Native speaker"
+    },
+    {
+      "language": "English",
+      "fluency": "Advanced"
+    }
+  ],
+  "references": [
+    {
+      "name": "Jane Doe",
+      "reference": "Reference…"
+    }
+  ],
+  "projects": [
+    {
+      "name": "SEGA Landpage",
+      "isActive": true,
+      "description": "Landing page para SEGA",
+      "tech": ["Figma", "React", "TailwindCSS"],
+      "url": "https://react-sega-app.vercel.app/"
+    }
+  ],
+  "interests": [
+    {
+      "name": "Wildlife",
+      "keywords": ["Ferrets", "Unicorns"]
+    }
+  ]
+}

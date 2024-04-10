@@ -1,12 +1,12 @@
 {
   "basics": {
     "name": "Ramiro Fiscella",
-    "label": "Front-End Web Developer &  UX/UI Designer.",
+    "label": "Fullstack Developer &  UX/UI Designer.",
     "image": "/me.webp",
     "email": "ramirofiscella@gmail.com",
     "phone": "+54 2281249246",
     "url": "https://ramirof.vercel.app",
-    "summary": "Soy Desarrollador Web Frontend con especial aprecio por el diseño de interfaces y la experiencia de usuario. Busco simpleza a través de mi trabajo creando soluciones tecnológicas que no solo sean funcionales, sino también atractivas y fáciles de usar.",
+    "summary": "Soy Desarrollador Web Fullstack con especial aprecio por el diseño de interfaces y la experiencia de usuario. Busco simpleza a través de mi trabajo creando soluciones tecnológicas que no solo sean funcionales, sino también atractivas y fáciles de usar.",
     "location": {
       "address": "",
       "postalCode": "28079 ",
@@ -26,7 +26,7 @@
         "url": "https://linkedin.com/in/ramiro-fiscella"
       },
       {
-        "network": "X",
+        "network": "Behance",
         "username": "ramiro-fiscella",
         "url": "https://behance.com/ramiro-fiscella"
       }
@@ -130,13 +130,22 @@
       "name": "SEO"
     },
     {
-      "name": "Node"
+      "name": "Node.js"
+    },
+    {
+      "name": "Express"
     },
     {
       "name": "PostgreSQL"
     },
     {
+      "name": "Restful API"
+    },
+    {
       "name": "WordPress"
+    },
+    {
+      "name": "Cloudinary"
     }
   ],
   "languages": [

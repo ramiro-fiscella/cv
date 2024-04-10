@@ -23,7 +23,7 @@ const LinkedUrl = linkedInfo?.url;
 const githubInfo = profiles.find((p) => p.network === "GitHub");
 const gitHubUrl = githubInfo?.url;
 
-const xInfo = profiles.find((p) => p.network === "X");
+const xInfo = profiles.find((p) => p.network === "Behance");
 const xUrl = xInfo?.url;
 
 const printInfo = [phone, email, LinkedUrl, gitHubUrl, xUrl];
@@ -142,7 +142,7 @@ const printInfo = [phone, email, LinkedUrl, gitHubUrl, xUrl];
     display: inline-flex;
     align-items: center;
     justify-content: center;
-    border: 1px solid #ddd;
+    border: 1px solid var(--color-terciario);
     padding: 4px;
     height: 32px;
     width: 32px;

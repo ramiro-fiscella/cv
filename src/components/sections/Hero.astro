@@ -6,7 +6,6 @@ import Phone from "@/icons/Phone.astro";
 import WorldMap from "@/icons/WorldMap.astro";
 import LinkedIn from "@/icons/LinkedIn.astro";
 import GitHub from "@/icons/GitHub.astro";
-import Behance from "@/icons/X.astro";
 
 const { name, label, image, location, profiles, phone, email } = basics;
 const { city, region } = location;
@@ -14,7 +13,6 @@ const { city, region } = location;
 const SOCIAL_ICONS: Record<string, any> = {
   GitHub,
   LinkedIn,
-  Behance,
 };
 
 const linkedInfo = profiles.find((p) => p.network === "LinkedIn");
@@ -23,10 +21,7 @@ const LinkedUrl = linkedInfo?.url;
 const githubInfo = profiles.find((p) => p.network === "GitHub");
 const gitHubUrl = githubInfo?.url;
 
-const xInfo = profiles.find((p) => p.network === "Behance");
-const xUrl = xInfo?.url;
-
-const printInfo = [phone, email, LinkedUrl, gitHubUrl, xUrl];
+const printInfo = [phone, email, LinkedUrl, gitHubUrl];
 // const printInfo = [phone, email, LinkedUrl, gitHubUrl, xUrl];
 ---
 

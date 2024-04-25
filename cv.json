@@ -156,11 +156,11 @@
   ],
   "projects": [
     {
-      "name": "SEGA Landpage",
+      "name": "Magic: The Gathering Card Component",
       "isActive": true,
-      "description": "Landing page para SEGA",
-      "tech": ["Figma", "React", "TailwindCSS"],
-      "url": "https://react-sega-app.vercel.app/"
+      "description": "Recreación de una carta de Magic: The Gathering",
+      "tech": ["React", "TailwindCSS"],
+      "url": "https://magic-card-delta.vercel.app/"
     },
     {
       "name": "SEGA Landpage",

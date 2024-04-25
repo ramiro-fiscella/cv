@@ -2,7 +2,7 @@
   "basics": {
     "name": "Ramiro Fiscella",
     "label": "Fullstack Developer &  UX/UI Designer.",
-    "image": "/me.webp",
+    "image": "/profile-green.png",
     "email": "ramirofiscella@gmail.com",
     "phone": "+54 2281249246",
     "url": "https://ramirof.vercel.app",
@@ -51,10 +51,10 @@
     },
     {
       "name": "Freelance",
-      "position": "desarrollador WordPress",
+      "position": "Diseñador Gráfico",
       "startDate": "02/2024",
       "endDate": "03/2024",
-      "summary": "Desarrollé un portfolio web para un fotógrafo."
+      "summary": "-"
     }
   ],
   "education": [

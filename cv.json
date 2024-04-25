@@ -6,7 +6,7 @@
     "email": "ramirofiscella@gmail.com",
     "phone": "+54 2281249246",
     "url": "https://ramirof.vercel.app",
-    "summary": "Soy Desarrollador Web Fullstack con especial aprecio por el diseño de interfaces y la experiencia de usuario. Busco simpleza a través de mi trabajo creando soluciones tecnológicas que no solo sean funcionales, sino también atractivas y fáciles de usar.",
+    "summary": "Soy un Desarrollador Fullstack y un Diseñador UX/UI con una sólida experiencia en la creación de soluciones basadas en estrategias de diseño bien fundamentadas.",
     "location": {
       "address": "",
       "postalCode": "28079 ",
@@ -39,8 +39,7 @@
       "url": "-",
       "startDate": "12/2023",
       "endDate": null,
-      "summary": "Desarrollador de sitios WordPress para una cooperativa de servicios técnicos.",
-      "highlights": ["-"]
+      "summary": "Desarrollador de sitios WordPress para una cooperativa de servicios tecnológicos."
     },
     {
       "name": "Soy Henry",
@@ -48,16 +47,14 @@
       "url": "hhttps://espacio-flipante-pf.vercel.app/",
       "startDate": "06/2023",
       "endDate": "10/2023",
-      "summary": "Lideré el equipo de diseño UX/UI, creando la interface y el prototipado en Figma. Desarrollé e implementé funcionalidades y componentes en React.",
-      "highlights": ["Encargado de todo el CSS"]
+      "summary": "Lideré el equipo de diseño UX/UI, creando la interface y el prototipado en Figma. Desarrollé e implementé funcionalidades y componentes en React."
     },
     {
       "name": "Freelance",
       "position": "desarrollador WordPress",
       "startDate": "02/2024",
       "endDate": "03/2024",
-      "summary": "Desarrollé un portfolio web para un fotógrafo.",
-      "highlights": ["-"]
+      "summary": "Desarrollé un portfolio web para un fotógrafo."
     }
   ],
   "education": [

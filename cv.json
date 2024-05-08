@@ -168,20 +168,6 @@
       "description": "Landing page para SEGA",
       "tech": ["Figma", "React", "TailwindCSS"],
       "url": "https://react-sega-app.vercel.app/"
-    },
-    {
-      "name": "SEGA Landpage",
-      "isActive": true,
-      "description": "Landing page para SEGA",
-      "tech": ["Figma", "React", "TailwindCSS"],
-      "url": "https://react-sega-app.vercel.app/"
-    },
-    {
-      "name": "SEGA Landpage",
-      "isActive": true,
-      "description": "Landing page para SEGA",
-      "tech": ["Figma", "React", "TailwindCSS"],
-      "url": "https://react-sega-app.vercel.app/"
     }
   ],
   "interests": [

@@ -158,14 +158,21 @@
     {
       "name": "Magic: The Gathering Card Component",
       "isActive": true,
-      "description": "Recreación de una carta de Magic: The Gathering",
+      "description": "Recreación de una carta de Magic: The Gathering.",
       "tech": ["React", "TailwindCSS"],
       "url": "https://magic-card-delta.vercel.app/"
     },
     {
+      "name": "Portfolio para fotógrafo",
+      "isActive": true,
+      "description": "Portfolio moderno para fotógrafo.",
+      "tech": ["Figma", "React"],
+      "url": "https://hernan-fiscella.vercel.app/"
+    },
+    {
       "name": "SEGA Landpage",
       "isActive": true,
-      "description": "Landing page para SEGA",
+      "description": "Landing page para SEGA.",
       "tech": ["Figma", "React", "TailwindCSS"],
       "url": "https://react-sega-app.vercel.app/"
     }

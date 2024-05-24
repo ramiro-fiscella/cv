@@ -25,21 +25,21 @@ const { title } = Astro.props;
 </html>
 
 <style is:global>
-  @import url("https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Reddit+Mono:wght@200..900&display=swap");
-  @import url("https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap");
+  @import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Reddit+Mono:wght@200..900&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
 
   :root {
-    --color-primario: #5aca65;
-    --color-secundario: #ffffff;
-    --color-terciario: #eee;
-    --color-cuarto: #999;
-    --color-quinto: #2a412d;
+    --color-primario: #ff6600;
+    --color-secundario: #535353;
+    --color-terciario: #444444;
+    --color-cuarto: #3a3a3a;
+    --color-quinto: #99a4af;
   }
 
   html {
-    font-family: "Work Sans", sans-serif;
+    font-family: 'Work Sans', sans-serif;
     font-optical-sizing: auto;
-    background: linear-gradient(-230deg, #060811, #022015);
+    background: linear-gradient(-230deg, #bec0c5, #d7dbda);
   }
   body,
   figure {
@@ -67,7 +67,7 @@ const { title } = Astro.props;
 
   h1 {
     margin: 0;
-    font-family: "Kanit", sans-serif;
+    font-family: 'Kanit', sans-serif;
     font-weight: 400;
     line-height: 1;
     color: var(--color-secundario);
@@ -78,14 +78,14 @@ const { title } = Astro.props;
   }
 
   h3 {
-    font-family: "Kanit", sans-serif;
+    font-family: 'Kanit', sans-serif;
     margin: 0;
     font-weight: 400;
     color: var(--color-terciario);
   }
 
   h4 {
-    font-family: "Roboto Mono", monospace;
+    font-family: 'Roboto Mono', monospace;
     font-optical-sizing: auto;
     margin: 4px 0;
     color: var(--color-cuarto);

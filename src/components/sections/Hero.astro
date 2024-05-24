@@ -1,11 +1,11 @@
 ---
-import { basics } from "@cv";
-import Section from "@/components/Section.astro";
-import Mail from "@/icons/Mail.astro";
-import Phone from "@/icons/Phone.astro";
-import WorldMap from "@/icons/WorldMap.astro";
-import LinkedIn from "@/icons/LinkedIn.astro";
-import GitHub from "@/icons/GitHub.astro";
+import { basics } from '@cv';
+import Section from '@/components/Section.astro';
+import Mail from '@/icons/Mail.astro';
+import Phone from '@/icons/Phone.astro';
+import WorldMap from '@/icons/WorldMap.astro';
+import LinkedIn from '@/icons/LinkedIn.astro';
+import GitHub from '@/icons/GitHub.astro';
 
 const { name, label, image, location, profiles, phone, email } = basics;
 const { city, region } = location;
@@ -15,10 +15,10 @@ const SOCIAL_ICONS: Record<string, any> = {
   LinkedIn,
 };
 
-const linkedInfo = profiles.find((p) => p.network === "LinkedIn");
+const linkedInfo = profiles.find((p) => p.network === 'LinkedIn');
 const LinkedUrl = linkedInfo?.url;
 
-const githubInfo = profiles.find((p) => p.network === "GitHub");
+const githubInfo = profiles.find((p) => p.network === 'GitHub');
 const gitHubUrl = githubInfo?.url;
 
 const printInfo = [phone, email, LinkedUrl, gitHubUrl];
@@ -83,9 +83,9 @@ const printInfo = [phone, email, LinkedUrl, gitHubUrl];
         }
       </footer>
     </div>
-    <figure>
+    <!-- <figure>
       <img src={image} alt={name} />
-    </figure>
+    </figure> -->
   </div>
 </Section>
 
@@ -119,15 +119,13 @@ const printInfo = [phone, email, LinkedUrl, gitHubUrl];
     text-wrap: balance;
   }
 
-  figure img {
+  /* figure img {
     width: 120px;
     height: 120px;
     border-radius: 50%;
     object-fit: fill;
-    /* margin-bottom: 6rem; */
-
     box-shadow: 0 0 150px -10px var(--color-quinto);
-  }
+  } */
 
   footer {
     display: flex;

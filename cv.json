@@ -40,7 +40,7 @@
       "name": "Soy Henry",
       "position": "Frontend Developer & UX/UI Designer",
       "url": "hhttps://espacio-flipante-pf.vercel.app/",
-      "startDate": "06/2023",
+      "startDate": "08/2023",
       "endDate": "10/2023",
       "summary": "Lideré el equipo de diseño UX/UI, creando la interface y el prototipado en Figma. Desarrollé e implementé funcionalidades y componentes en React."
     },
@@ -59,6 +59,13 @@
       "studyType": "Licenciatura en Informática. Cursado hasta tercer año de la carrera.",
       "startDate": "03/2014",
       "endDate": "11/2017"
+    },
+    {
+      "institution": "Soy Henry",
+      "area": "Desarrollo FulStack",
+      "studyType": "Bootcamp",
+      "startDate": "06/2023",
+      "endDate": "10/2023"
     }
   ],
   "certificates": [

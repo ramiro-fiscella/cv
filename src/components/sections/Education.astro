@@ -1,7 +1,7 @@
 ---
-import Section from "../Section.astro";
+import Section from '../Section.astro';
 
-import { education } from "@cv";
+import { education } from '@cv';
 ---
 
 <Section title="Educación">
@@ -17,7 +17,7 @@ import { education } from "@cv";
                   <h4>{area}</h4>
                 </div>
                 <p class="date">
-                  {startDate} - {endDate ? endDate : "Presente"}
+                  {startDate} - {endDate ? endDate : 'Presente'}
                 </p>
               </header>
               <footer>
@@ -67,6 +67,10 @@ import { education } from "@cv";
     * {
       color: black;
       background: white;
+    }
+
+    a {
+      display: none;
     }
   }
 </style>
